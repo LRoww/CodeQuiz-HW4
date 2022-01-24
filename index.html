@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Box Styling</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
+
+  <body>
+    <header>  
+      <a href="">View Highscores</a> 
+      <div class="timer-text">Time: </div>
+    </header>
+
+    <main>
+      <section class="container"> 
+        <section class= "start-page">
+
+          <h1>Coding Quiz</h1>
+          <p>Discription</p>
+          <button class="start-button">Start Quiz</button>
+
+        </section>
+
+        <section class= "question-page" hidden> <!-- starts hidden -->
+          <h2 class="question">Question?</h2>
+          <ol class="options">
+            <input type="button"> 
+            <input type="button"> 
+            <input type="button"> 
+            <input type="button"> 
+          </ol>
+          <div class= "responce"></div>
+        </section>
+
+        <section class= "end-page"  hidden> <!-- starts hidden -->
+          <h1>All done!</h1>
+          <p>Text here</p>
+          <label>Initials: <input type="text" id="initials"></label>
+          <button type ="submit">Submit</button>
+        </section>
+
+        <aside class= "highscores-page"  hidden> <!-- starts hidden -->
+          <h1>Highscores!</h1>
+          <ol>
+            <li></li>
+          </ol>
+          <button type="back">Back</button>
+          <button type="reset">Clear Scores</button>
+        </aside>
+    </section>
+    </main>
+
+
+        
+    <script src="assets/js/script.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  place-content: center center;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  place-content: center left;
+  width: 50%;
+  height: 300px;
+  
+  background-color: lightgray; /*  for visualization */
+}
+
+.container section {
+  position: absolute;
+}
+
+aside {
+  position: absolute;
+}
+
+button{
+  background-color: rgba(67, 29, 88, 0.959);
+  color: white;
+}
