@@ -1,6 +1,6 @@
 # CodeQuiz-HW4
 
-This program is a template for a quiz and I used as a exsersize to gain better understand of Web API's. 
+This program is a template for a quiz and I used as practice to gain better understanding of Web API's. 
 
 ![Screenshot](assets/images/screenshot.PNG)
 
