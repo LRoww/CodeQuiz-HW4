@@ -9,7 +9,7 @@
 
   <body>
     <header>  
-      <a href="">View Highscores</a> 
+      <!-- <a href="" class="vHighscores">View Highscores</a>  -->
       <div class="timer-text">Time: </div>
     </header>
 
@@ -26,28 +26,26 @@
         <section class= "question-page" hidden> <!-- starts hidden -->
           <h2 class="question">Question?</h2>
           <ol class="options">
-            <input type="button"> 
-            <input type="button"> 
-            <input type="button"> 
-            <input type="button"> 
+            <button class = "b0"></button>
+            <button class = "b1"></button>
+            <button class = "b2"></button>
+            <button class = "b3"></button> 
           </ol>
-          <div class= "responce"></div>
+          <p class= "responce"></p>
         </section>
 
         <section class= "end-page"  hidden> <!-- starts hidden -->
           <h1>All done!</h1>
           <p>Text here</p>
           <label>Initials: <input type="text" id="initials"></label>
-          <button type ="submit">Submit</button>
+          <button class ="submit">Submit</button>
+          <p class= "responce"></p>
         </section>
 
         <aside class= "highscores-page"  hidden> <!-- starts hidden -->
           <h1>Highscores!</h1>
-          <ol>
-            <li></li>
+          <ol class="scores-ol">
           </ol>
-          <button type="back">Back</button>
-          <button type="reset">Clear Scores</button>
         </aside>
     </section>
     </main>
